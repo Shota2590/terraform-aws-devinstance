@@ -1,5 +1,4 @@
-output "name" {
-  valup" {
+ioutput "eip" {
   description = "AWSインスタンスのパブリックIPを表示"
   value = aws_eip.hashicat.public_ip
 }
@@ -14,4 +13,4 @@ output "instance-info" {
     aws_instance.hashicat.instance_type
     ]
 }
-e = aws_eip.hashicat.public_ip
+
